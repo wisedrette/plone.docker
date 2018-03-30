@@ -3,7 +3,7 @@ dockerfileonly:
 compose_files:
   instance1:
     dockerimage:
-      plone2
+      plone4
 port_forwarding:
   80:8080
 non_bash_commands:
