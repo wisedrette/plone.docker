@@ -1,0 +1,12 @@
+dockerfileonly:
+  true
+compose_files:
+  instance1:
+    dockerimage:
+      plone2
+port_forwarding:
+  80:8080
+non_bash_commands:
+  false
+dockerimage:
+  plone
